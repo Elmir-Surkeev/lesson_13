@@ -1,8 +1,8 @@
 package ModernCalculate;
 
 public class Cone extends Figure{
-    private int obrazCone;
-    public Cone(int length, int width, int height, double radius, double p, int obrazCone) {
+    private double obrazCone;
+    public Cone(int length, int width, double height, double radius, double p, double obrazCone) {
         super(length, width, height, radius, p);
         this.obrazCone = obrazCone;
     }

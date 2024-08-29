@@ -1,53 +1,33 @@
 package ModernCalculate;
 
 public abstract class Figure {
-    private int length;
-    private int width;
-    private int height;
+    private double length;
+    private double width;
+    private double height;
     private double radius;
     private double p = 3.12;
 
-    public int getLength() {
+    public double getLength() {
         return length;
     }
 
-    public void setLength(int length) {
-        this.length = length;
-    }
-
-    public int getWidth() {
+    public double getWidth() {
         return width;
     }
 
-    public void setWidth(int width) {
-        this.width = width;
-    }
-
-    public int getHeight() {
+    public double getHeight() {
         return height;
-    }
-
-    public void setHeight(int height) {
-        this.height = height;
     }
 
     public double getRadius() {
         return radius;
     }
 
-    public void setRadius(double radius) {
-        this.radius = radius;
-    }
-
     public double getP() {
         return p;
     }
 
-    public void setP(double p) {
-        this.p = p;
-    }
-
-    public Figure(int length, int width, int height, double radius, double p){
+    public Figure(double length, double width, double height, double radius, double p){
         this.length = length;
         this.width = width;
         this.height = height;

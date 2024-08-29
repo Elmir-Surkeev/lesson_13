@@ -1,7 +1,7 @@
 package ModernCalculate;
 
 public class PPD extends Figure{
-    public PPD(int length, int width, int height, double radius, double p) {
+    public PPD(double length, double width, double height, double radius, double p) {
         super(length, width, height, radius, p);
     }
     void currentS(){

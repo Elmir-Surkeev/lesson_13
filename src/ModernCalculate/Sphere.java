@@ -1,7 +1,7 @@
 package ModernCalculate;
 
 public class Sphere extends Figure{
-    public Sphere(int length, int width, int height, double radius, double p) {
+    public Sphere(int length, int width, double height, double radius, double p) {
         super(length, width, height, radius, p);
     }
     void currentS(){
