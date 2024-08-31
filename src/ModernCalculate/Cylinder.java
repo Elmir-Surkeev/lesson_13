@@ -1,15 +1,25 @@
 package ModernCalculate;
 
+import java.util.Scanner;
+
 public class Cylinder extends Figure{
-    public Cylinder(int length, int width, int height, double radius, double p) {
-        super(length, width, height, radius, p);
-    }
-    void currentS(){
-        double a = getP()* (getRadius()+getHeight());
+    public void getSquare(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите данные радиуса");
+        double radius = scanner.nextDouble();
+        System.out.println("Введите данные высоты");
+        double heigth = scanner.nextDouble();
+
+        double a = Math.PI* (radius+heigth);
         System.out.println("A = "+ a);
-    };
-    void currentV(){
-        double V = getP()*(getRadius()*getRadius())*getHeight();
+        double V = Math.PI*(radius*radius)*heigth;
         System.out.println("V = "+ V);
     }
+
+
+    @Override
+    public void checkingNegativeNumbers() {
+
+    }
+
 }
