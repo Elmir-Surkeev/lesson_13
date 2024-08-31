@@ -4,5 +4,6 @@ public abstract class Figure {
 
     public abstract void getSquare();
 
-    public abstract void checkingNegativeNumbers();
+
+    public abstract void checkingNegativeNumbers(double... numbers);
 }
