@@ -14,7 +14,6 @@ public class Mainn {
                     System.out.println("Вы выбрали параллелепипед ");
                     Figure parallelepiped = new PPD();
                     parallelepiped.getSquare();
-                    parallelepiped.checkingNegativeNumbers();
                     break;
                 case 2:
                     System.out.println("Вы выбрали сферу ");
@@ -30,7 +29,6 @@ public class Mainn {
                     System.out.println("Вы выбрали конус ");
                     Figure cone = new Cone();
                     cone.getSquare();
-                    cone.checkingNegativeNumbers();
                     break;
                 default:
                     System.out.println("Выбор неверной фигуры для расчета площади и объёма");
